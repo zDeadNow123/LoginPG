@@ -1,0 +1,111 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(186.5deg, rgba(200, 94, 87, 0.5) 68.31%, rgba(181, 83, 77, 0.265) 93.9%);
+}
+
+.menu-login {
+    display: flex;
+    margin: auto;
+    width: 1156px;
+    height: 704px;    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.barra-lateral-esquerda {
+    display: flex;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.barra-lateral-esquerda-itens {
+    margin: auto;
+}
+
+.barra-lateral-esquerda-itens-form-lr {
+    display: flex;
+    justify-content: end;
+}
+
+.barra-lateral-esquerda-a-entrar {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #787878;
+    margin-right: 41px;
+}
+
+.barra-lateral-esquerda-a-cadastro {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: #787878
+}
+
+.barra-lateral-esquerda-entrar-titulo {
+    margin-left: -15px;
+    margin-top: 49px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #434242;
+}
+
+.barra-lateral-esquerda-fazerlogin-titulo {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #787878;
+}
+
+.barra-lateral-esquerda-input-email {
+    margin-top: 15px;
+    display: flex;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000000;
+    width: 474px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000000;
+}
+
+.barra-lateral-esquerda-input-senha {
+    margin-top: 39px;
+    display: flex;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    width: 474px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000000;
+}
+
+.barra-lateral-esquerda-btn-entrar {
+    margin-top: 91px;
+    border: none;
+    background: linear-gradient(268.34deg, rgba(125, 211, 205, 0.35) 1.41%, rgba(65, 210, 184, 0.81) 100%);
+    box-shadow: 0px 4px 30px rgba(207, 158, 158, 0.25);
+    border-radius: 10px;
+    width: 474px;
+    height: 63px;
+    font-size: 30px;
+    color: #FFFFFF
+}
+
+.barra-lateral-direita {
+    display: flex;
+    width: 50%;
+    background: linear-gradient(180deg, #53B2E8 0%, rgba(65, 210, 184, 0.81) 100%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.barra-lateral-direita-itens {
+    margin: auto;
+}
